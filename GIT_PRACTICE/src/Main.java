@@ -5,6 +5,8 @@ public class Main {
         int c = 10;
         System.out.println(a);
         System.out.println(b);
+        Person person = new Person("Bobik");
+        System.out.println(person.getName());
     }
 
 }
